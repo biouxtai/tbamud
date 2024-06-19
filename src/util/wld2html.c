@@ -258,7 +258,7 @@ void discrete_load(FILE * fl)
       exit(1);
     }
     if (*line == 'T') //Toss triggers. THey currently break this util.
-      return;
+      continue;
 	  
     if (*line == '$')
       return;
